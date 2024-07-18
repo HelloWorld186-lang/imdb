@@ -50,7 +50,7 @@ const Search = ({ initialMovies, totalResults, error }) => {
 
   return (
     <div className="space-y-8 min-h-screen">
-      <h2 className="text-2xl font-bold mb-4">Search Results for "{searchText}"</h2>
+      <h2 className="text-2xl font-bold mb-4">Search Results for &apos;{searchText}&apos;</h2>
       {movies.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {movies.map(movie => (
